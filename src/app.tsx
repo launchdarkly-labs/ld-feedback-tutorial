@@ -50,10 +50,8 @@ const App: React.FC = () => {
       <div>
         <h2>Send Evaluation</h2>
         <div>
-          <button onClick={() => sendEvaluation(flagKey, false)}>Send Evaluation to False</button>
+          <button onClick={() => sendEvaluation(flagKey, false)}>Send Evaluation</button>
           <br />
-          <br />
-          <button onClick={() => sendEvaluation(flagKey, true)}>Send Evaluation to True</button>
         </div>
       </div>
       <div>
